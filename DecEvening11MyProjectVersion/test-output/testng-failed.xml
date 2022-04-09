@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoblazeSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.utilities.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="DemoblazeTest(failed)">
+    <classes>
+      <class name="com.qa.testLayer.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+          <include name="verifyOnNexus6"/>
+          <include name="startLogger"/>
+          <include name="endLogger"/>
+        </methods>
+      </class> <!-- com.qa.testLayer.HomePageTest -->
+    </classes>
+  </test> <!-- DemoblazeTest(failed) -->
+</suite> <!-- Failed suite [DemoblazeSuite] -->
